@@ -36,17 +36,13 @@ class Library:
             print("----------------------")
 
 
-
-    # def searchBook(self, bookID):
-    # def searchStudent(self, studentID):
-    # def borrowBook(self, studentID, bookID):
-    # def returnBook(self, studentID, bookID):
     def searchBook(self, bookID):
         for book in self.books:
             if book.bookID == bookID:
                 return book
 
         print("Book not found.")
+        return None
 
     def searchStudent(self, studentID):
         for student in self.students:
@@ -54,6 +50,7 @@ class Library:
                 return student
 
         print("Student not found.")
+        return None
 
     def borrowBook(self, studentID, bookID):
         student = self.searchStudent(studentID)

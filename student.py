@@ -33,14 +33,14 @@ Author: {len(self.borrowedBooks)}
             print("Book is not available...")
 
 
-student1 = Student(1, "Taleh")
+'''student1 = Student(1, "Taleh")
 student2 = Student(2, "Ramiz")
 student3 = Student(3, "Ramal")
 
 
-book1 = Book(1, "Clean Code", "Robert Martin", 464)
+book1 = Book(1, "Clean Code", "Robert Martin", 464)'''
 
 
-student1.borrowBook(book1)
+'''student1.borrowBook(book1)
 print("Reading...")
-student1.returnBook(book1)
+student1.returnBook(book1)'''
